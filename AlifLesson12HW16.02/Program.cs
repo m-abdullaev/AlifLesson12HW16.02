@@ -26,7 +26,6 @@ namespace AlifLesson12HW16._02
             }
         }
         static void Main(string[] args)
-
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WindowLeft = Console.WindowTop = 0;
@@ -39,9 +38,7 @@ namespace AlifLesson12HW16._02
 
             int[] y;
 
-
             Initializer(out width, out height, out y);
-
 
             while (true)
                 UpdateAllColumns(width, height, y);
